@@ -14,7 +14,7 @@ terraform {
   #
   # backend "s3" {
   #   bucket         = "onkar_bucket_terraform"
-  #   key            = "terraform.tfstate"
+  #   key            = "onkar/terraform.tfstate"
   #   region         = "us-west-2"
   #   dynamodb_table = "terraweek-state-lock"
   #   encrypt        = true
